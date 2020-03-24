@@ -53,9 +53,12 @@
             >
               {{lancamento.valor}}
             </td>
+            <!-- Botões -->
             <td class="col-acoes">
-              <a pButton icon="fa fa-pencil"></a>
-              <button pButton icon="fa fa-trash"></button>
+              <!-- Editar -->
+              <a pButton icon="fa fa-pencil" pTooltip="Editar" tooltipPosition="top"></a>
+              <!-- Excluir -->
+              <button pButton icon="fa fa-trash" pTooltip="Excluir" tooltipPosition="top"></button>
             </td>
         </tr>
       </ng-template>
